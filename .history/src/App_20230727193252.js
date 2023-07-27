@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide } from "react-slideshow-image";
 
 export default function App() {
   const images = [

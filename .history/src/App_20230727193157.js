@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide } from "react-slideshow-image";
 
 export default function App() {
   const images = [
@@ -33,9 +34,9 @@ export default function App() {
           chosen as they are meant to inspire learning. <br />
           <br />
           For the development of the app, I used expo with react native to
-          create the pages quicky and as I don&apos;t have a mac at the time of
-          writing this, I couldn&apos;t use swift. For the “backend” I chose to
-          use redux with redux persist as I wanted the app to be offline only
+          create the pages quicky and as I don’t have a mac at the time of
+          writing this, I couldn’t use swift. For the “backend” I chose to use
+          redux with redux persist as I wanted the app to be offline only
           (though after implementing this I realised the amount of data used in
           the app was too much for redux persist so will be trying more
           traditional backends next time).
@@ -43,14 +44,14 @@ export default function App() {
       </div>
 
       <img src={images[0]} alt="simplespell" />
-      <img src={images[1]} alt="simplespell" />
-      <img src={images[2]} alt="simplespell" />
-      <img src={images[3]} alt="simplespell" />
-      <img src={images[4]} alt="simplespell" />
-      <img src={images[5]} alt="simplespell" />
-      <img src={images[6]} alt="simplespell" />
-      <img src={images[7]} alt="simplespell" />
-      <img src={images[8]} alt="simplespell" />
+      <img src={images[1]} alt="image" />
+      <img src={images[2]} alt="image" />
+      <img src={images[3]} alt="image" />
+      <img src={images[4]} alt="image" />
+      <img src={images[5]} alt="image" />
+      <img src={images[6]} alt="image" />
+      <img src={images[7]} alt="image" />
+      <img src={images[8]} alt="image" />
     </div>
   );
 }

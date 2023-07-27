@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide } from "react-slideshow-image";
 
 export default function App() {
   const images = [
@@ -33,8 +34,8 @@ export default function App() {
           chosen as they are meant to inspire learning. <br />
           <br />
           For the development of the app, I used expo with react native to
-          create the pages quicky and as I don&apos;t have a mac at the time of
-          writing this, I couldn&apos;t use swift. For the “backend” I chose to
+          create the pages quicky and as I don &apos;t have a mac at the time of
+          writing this, I couldn &apos;t use swift. For the “backend” I chose to
           use redux with redux persist as I wanted the app to be offline only
           (though after implementing this I realised the amount of data used in
           the app was too much for redux persist so will be trying more
