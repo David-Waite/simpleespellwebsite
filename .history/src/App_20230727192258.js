@@ -20,19 +20,17 @@ export default function App() {
 
       <div>
         <a href="https://github.com/David-Waite/SpellingApp">View on GitHub</a>
-        <br />
-        <br />
         <p>
-          Simply spell is an app I created as I wanted to play around with
-          mobile development. For the design of the app, I started by finding
-          words lists that would be the most useful for adults to learn the
-          words lists I found where created by the new general service list
-          project and included the most used words in both everyday speak and
-          academic speak. I wanted to design the app in a way that everything
-          the user would mostly be doing would be assessable by the main page,
-          including the main statistics the app has to offer. The colours were
-          chosen as they are meant to inspire learning. <br />
-          <br />
+          This is an app to help adults with spelling English. Simply spell is
+          an app I created as I wanted to play around with mobile development.
+          For the design of the app, I started by finding words lists that would
+          be the most useful for adults to learn the words lists I found where
+          created by the new general service list project and included the most
+          used words in both everyday speak and academic speak. I wanted to
+          design the app in a way that everything the user would mostly be doing
+          would be assessable by the main page, including the main statistics
+          the app has to offer. The colours were chosen as they are meant to
+          inspire learning. <br />
           For the development of the app, I used expo with react native to
           create the pages quicky and as I don’t have a mac at the time of
           writing this, I couldn’t use swift. For the “backend” I chose to use
@@ -42,7 +40,6 @@ export default function App() {
           traditional backends next time).
         </p>
       </div>
-
       <img src={images[0]} alt="image" />
       <img src={images[1]} alt="image" />
       <img src={images[2]} alt="image" />
@@ -52,6 +49,7 @@ export default function App() {
       <img src={images[6]} alt="image" />
       <img src={images[7]} alt="image" />
       <img src={images[8]} alt="image" />
+      <img src={images[9]} alt="image" />
     </div>
   );
 }

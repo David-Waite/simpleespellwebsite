@@ -52,6 +52,7 @@ export default function App() {
       <img src={images[6]} alt="image" />
       <img src={images[7]} alt="image" />
       <img src={images[8]} alt="image" />
+      <img src={images[9]} alt="image" />
     </div>
   );
 }

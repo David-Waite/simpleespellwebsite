@@ -21,7 +21,6 @@ export default function App() {
       <div>
         <a href="https://github.com/David-Waite/SpellingApp">View on GitHub</a>
         <br />
-        <br />
         <p>
           Simply spell is an app I created as I wanted to play around with
           mobile development. For the design of the app, I started by finding
@@ -42,7 +41,6 @@ export default function App() {
           traditional backends next time).
         </p>
       </div>
-
       <img src={images[0]} alt="image" />
       <img src={images[1]} alt="image" />
       <img src={images[2]} alt="image" />
@@ -52,6 +50,7 @@ export default function App() {
       <img src={images[6]} alt="image" />
       <img src={images[7]} alt="image" />
       <img src={images[8]} alt="image" />
+      <img src={images[9]} alt="image" />
     </div>
   );
 }

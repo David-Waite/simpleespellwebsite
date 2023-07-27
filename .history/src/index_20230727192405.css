@@ -41,7 +41,6 @@ h1 {
   background: #efefef;
   text-align: center;
 }
-img {
+.img {
   width: 100%;
-  object-fit: contain;
 }
